@@ -18,7 +18,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='noderoot',
-    version='0.0.1',
+    version='0.0.2',
     description='Noderoot is a tool for chrooting into root file systems stored on a different system.',
     long_description=long_description,
     url='https://github.com/gusbricker/noderoot',
@@ -47,7 +47,7 @@ setup(
     keywords='rootfs development linux',
     packages=['noderoot'],
     install_requires=['cffi', 'cryptography', 'paramiko'],
-	download_url = 'https://github.com/gusbricker/noderoot/tarball/0.0.1',
+	download_url = 'https://github.com/gusbricker/noderoot/tarball/0.0.2',
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
